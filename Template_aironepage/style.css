@@ -1,0 +1,541 @@
+.mainWrapper{
+width:100%;
+height:1000px;
+font-family: 'Open Sans', sans-serif;
+}
+.mainWrapper .sectionNav{
+    width:100%;
+    height: 790px;
+    background-image: url("images/background.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sectionNav .logoNav{
+    width:80%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    position: relative;
+    padding-top: 1%;
+}
+.sectionNav hr{
+    margin-top: -2%;
+}
+.logoNav a{
+    text-decoration: none;
+}
+.logoNav a h3{
+    color: floralwhite;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+    margin-top: 6%;
+}
+.logoNav a h3 span{
+    color: aqua;
+}
+.logoNav ul {
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+    list-style: none;
+}
+.logoNav ul li{
+    margin: 0%;
+}
+.logoNav ul li a{
+    font-size: 14px;
+    padding: 11px 16px;
+    text-decoration: none;
+    color: #fff6f6;
+    transition: all ease 0.3s;
+    font-weight: 700;
+
+}
+.logoNav ul li a:hover{
+    background-color: #fff6f6;
+    color:rgb(31, 30, 30);
+}
+.sectionNav .centerWrapper{
+    width: 40%;
+    margin: 12% auto;
+    height: 250px;
+    text-align: center;
+}
+.sectionNav .centerWrapper h1{
+    color: #fff6f6;
+    font-size: 44px;
+    font-weight: 700;
+}
+.sectionNav .centerWrapper p{
+    color: #fff6f6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+.sectionNav .centerWrapper button{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 12px;
+    background-color: white;
+    color: rgb(31, 30, 30);
+    outline: none;
+    cursor: pointer;
+    transition:all ease 0.3s;
+    border:transparent;
+}
+.sectionNav .centerWrapper button:hover{
+    background-color: rgb(31, 30, 30);
+    color:white;
+}
+/* produccts latest section begin */
+.latestproducts{
+  width:80%;
+  margin:auto;
+  padding-top: 2.2%;
+}
+.latestproducts h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight:700;
+}
+.latestproducts p{
+    color: gray;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5%;
+}
+ .latestproducts .content{
+    display: inline-flex;
+ }
+ .latestproducts .content div{
+    width: 31.2%;
+    margin-left: 3%;
+ }
+ .latestproducts .content div img{
+     width:100%;
+     height: 250px;
+ }
+ .latestproducts .content div .forh3{
+     display:flex;
+     margin-left: 0;
+ }
+ .latestproducts .content div .forh3 h3{
+    margin-right: 16%;
+    font-size: 19px;
+ }
+ .latestproducts .content div .forh3 h3:nth-child(2)
+ {
+     color:gray;
+     margin-top: 19.5%;
+     font-size: 15px;
+ }
+ .latestproducts .content div .second{
+
+ }
+ .latestproducts .content div p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: -1%;
+ }
+ .latestproducts .content div a{
+    text-decoration: none;
+    color: #585757;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 6px;
+ }
+ .latestproducts .content div a:hover{
+    background-color:rgb(66, 65, 65);
+    color: #fff6f6;
+ }
+/* produccts latest section end */
+/* 2 images section begin */
+.imagesSection{
+    width:100%;
+    height: 540px;
+    padding-top: 5%;
+}
+.imagesSection div{
+    width: 49%;
+    height: 90%;
+}
+.imagesSection div:nth-child(1)
+{
+float:left;
+background-image: url("images/salma.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size:cover;
+}
+.imagesSection div:nth-child(2)
+{
+    float:right;
+    background-image: url("images/salmahayek.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* 2 images section end */
+/* category section begin */
+.categorySection{
+    width: 80%;
+    margin: auto;
+    height: 550px;
+    padding-bottom: 5%;
+}
+.categorySection div{
+    width: 33.33%;
+    float: left;
+    border: 1px solid white;
+    background-color:#f7f7f7;
+    height: 50%;
+    box-sizing: border-box;
+    padding-left: 4%;
+    PADDING-TOP: 4%;
+    color:grey;
+}
+.categorySection div:hover{
+    background-color: #15bfce;
+    transition:all ease 0.3s;
+    color:white;
+}
+.categorySection div i{
+  font-size:21px;
+}
+.categorySection div h1{
+    font-size: 25px;
+}
+.categorySection div p{
+    font-weight:500;
+}
+/* category section end */
+/* Display result section begin */
+.displayResult{
+    width:100%;
+    height: 300px;
+    background-color: #b9bcc5;
+}
+.displayResult .centerWrapper{
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    color: white;
+    padding: 3%;
+}
+/* Display result section end */
+/* imagesPlugin section begin */
+.imagesPlugin{
+height: 770px;
+width:100%;
+padding-top: 5%;
+}
+.imagesPlugin .centerWrapper{
+height: 90%;
+width:80%;
+margin:auto;
+}
+.imagesPlugin .centerWrapper .up{
+width:100%;
+height: 50%;
+}
+.imagesPlugin .centerWrapper .up div:nth-child(1){
+    width: 66.29%;;;
+height: 100%;
+float:left;
+background-image: url("images/salmahayek.jpg");
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.imagesPlugin .centerWrapper .up div:nth-child(2){
+    height: 100%;
+    width:32.8%;;
+    float:right;
+    background-image: url("images/salmahayek.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagesPlugin .centerWrapper .down{
+    width:100%;
+    height: 50%;
+    margin-top: 10px;
+}
+.imagesPlugin .centerWrapper .down div{
+    width: 32.7%;
+    margin-left: 7px;
+
+    height: 100%;
+    display: inline-block;
+    background-image: url("images/salmahayek.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width: 1024px) {
+    .imagesPlugin .centerWrapper .down div {
+        width: 32.57%;
+    }
+}
+.imagesPlugin .centerWrapper .down div:nth-child(1){
+    margin-left: 0%;
+}
+/* imagesPlugin section end */
+/* choose section begin */
+.chooseSection{
+    width: 100%;
+    height: 640px;
+    padding-top: 8.5%;
+    box-sizing: border-box;
+    background-color: #f3f2f2;
+}
+.chooseSection .content{
+    width: 80%;
+    margin: auto;
+    height: 75%;
+    display: flex;
+}
+.chooseSection .content div{
+background-color: white;
+border:1px solid #f3f2f2;
+box-sizing: border-box;
+padding: 5% 2%;
+margin-left: 1%;
+width: 33%;
+}
+.chooseSection .content div>i{
+    font-size: 24px;
+    color: grey;
+}
+.chooseSection .content div:nth-child(1)
+{
+    margin-left: 0;
+}
+.chooseSection .content div h1{
+    font-size: 23px;
+    color: #4e4e4e;
+}
+.chooseSection .content div h1 span:nth-child(1)
+{
+    font-size: 17px;
+    color: grey;
+}
+.chooseSection .content div h1 span:nth-child(2)
+{
+    margin-left: 7px;
+}
+.chooseSection .content div p{
+    font-size: 13px;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 27px;
+}
+.chooseSection .content div a{
+    display: block;
+    text-decoration: none;
+    margin-top: 6px;
+    font-size: 15px;
+    color: #4e4e4e;
+    font-weight: 600;
+}
+.chooseSection .content div a i{
+    color: #80b59f;
+    margin-right: 8px;
+}
+.chooseSection .content div a:hover{
+    text-decoration:underline;
+    transition:all ease 0.3s;
+}
+.chooseSection .content div button{
+    margin-top: 40px;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: transparent;
+    background-color: #dadada;
+    color: #4e4e4e;
+}
+.chooseSection .content div button:hover{
+    background-color: #4e4e4e;
+    color:#dadada;
+    transition:all ease 0.3s;
+}
+.chooseSection .content div:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px #b8b6b6;
+    transition: all ease 0.3s;
+}
+/* choose section end */
+/* customerRewiews section begin */
+.customerRewiews{
+    width:80%;
+    height: 330px;
+    margin: auto;
+    padding-top: 2%;
+}
+.customerRewiews>div{
+width:70%;
+height: 100%;
+box-sizing: border-box;
+float: left;
+}
+.customerRewiews div p{
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    padding-left: 17px;
+}
+.customerRewiews div h1{
+    font-size: 27px;
+    color: #4e4e4e;
+}
+.customerRewiews div h3{
+    padding-left: 17px;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.customerRewiews div h3 span{
+    font-size: 14px;
+    margin-left: 10px;
+    color: gray;
+}
+/* customerRewiews section end */
+/* map section begin */
+.map{
+width:100%;
+height: 350px;
+border-bottom: 1px solid lightgray;
+}
+.map .forMap{
+width: 100%;
+height: 85%;
+position: relative;
+}
+.map .forMap i{
+    position: absolute;
+    font-size: 24px;
+    background: #4e4c4c;
+    padding: 4px 8px;
+    border-radius: 100%;
+    color: white;
+    right: 50%;
+    top: 39%;
+}
+.map .foot{
+width: 24%;
+height: 15%;
+margin: auto;
+}
+.map .foot p{
+    font-size: 13px;
+    font-weight: 600;
+    color: dimgray;
+    margin-top: 4%;
+}
+/* map section end */
+/* foot section begin */
+.foot{
+   width:100%;
+   height: 350px;
+   margin-top: 30px;
+}
+.foot .wrapper{
+   height: 100%;
+   width:80%;
+   margin: auto;
+}
+.foot .wrapper .links{
+    height: 80%;
+    width:100%;
+    border-bottom:1px solid lightgray;;
+}
+.foot .wrapper .links .first{
+   width:15%;
+   height: 100%;
+   float: left;
+   box-sizing: border-box;
+   padding-top: 3%;
+}
+.foot .wrapper .links .first a{
+      display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3%;
+    color: #636262;
+}
+.foot .wrapper .links .first a:hover{
+    text-decoration: underline;
+}
+.foot .wrapper .links .second a:hover{
+    text-decoration: underline;
+}
+.foot .wrapper .links .third a:hover{
+    text-decoration: underline;
+}
+.foot .wrapper .links .second{
+   width:15%;
+   height: 100%;
+   float: left;
+   box-sizing: border-box;
+   padding-top: 3%;
+}
+.foot .wrapper .links .second a{
+      display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3%;
+    color: #636262;
+}
+.foot .wrapper .links .third{
+   width:25%;
+   height: 100%;
+   float: left;
+   box-sizing: border-box;
+   padding-top: 3%;
+}
+.foot .wrapper .links .third a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 3%;
+    color: #636262;
+}
+.foot .wrapper .logoFoot{
+
+}
+.foot .wrapper .logoFoot p:nth-child(1)
+{
+float: left;
+float: left;
+font-weight: 700;
+color: dimgray;
+}
+.foot .wrapper .logoFoot p:nth-child(1) span{
+    color: #22eaea;
+}
+.foot .wrapper .logoFoot p:nth-child(2)
+{
+float: right;
+float: right;
+font-size: 14px;
+font-weight: 600;
+color: lightgray;
+}
+.foot .wrapper .logoFoot p:nth-child(2) span{
+    color: dimgray;
+    cursor: pointer;
+}
+/* foot section end */
