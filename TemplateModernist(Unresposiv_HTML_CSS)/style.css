@@ -1,0 +1,422 @@
+.mainWrapper{
+width: 100%;
+height: auto;
+font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.mainWrapper .carouselSec{
+width:100%;
+height: 770px;
+background-color: #290000;
+}
+.mainWrapper .carouselSec .container .logoNav{
+    display: flex;
+    position: relative;
+    padding-top: 3%;
+}
+.mainWrapper .carouselSec .container .logoNav .logo a{
+text-decoration: none;
+}
+
+.mainWrapper .carouselSec .container .logoNav a h1{
+    color: floralwhite;
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 0%;
+}
+.mainWrapper .carouselSec .container .logoNav p{
+    font-size: 13px;
+    color: darkgray;
+    position: absolute;
+    top: 58%;
+}
+.logoNav ul{
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+    list-style: none;
+}
+.logoNav ul li{
+    margin: 0%;
+    display: list-item;
+}
+.logoNav ul li a{
+    font-size: 15px;
+    padding: 11px 16px;
+    text-decoration: none;
+    color: #fff6f6;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+.logoNav ul li a:hover{
+    background-color: #76c38f;
+}
+.mainWrapper .carouselSec .container .carousel{
+width: 100%;
+height: 80%;
+position: relative;
+box-sizing: border-box;
+padding-top: 4%;
+}
+.carousel .left{
+    width: 49%;
+    height: 100%;
+    float:left;
+    padding-top: 8.5%;
+    box-sizing: border-box;
+    padding-right: 2%;
+    padding-left: 4%;
+}
+.carousel .left h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 400;
+}
+.carousel .left p{
+    color: darkgray;
+    font-size: 16px;
+    font-weight: 300;
+}
+.carousel .left button{
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    border-radius: 12px;
+    outline: none;
+    border: transparent;
+    background: #76c38f;
+    color: floralwhite;
+    cursor: pointer;
+}
+.carousel .left button:hover{
+    background-color: floralwhite;
+    color:#76c38f;
+    transition: all ease 0.3s;
+}
+.carousel .left button i{
+    margin-left: 5px;
+}
+.carousel .right{
+width: 49%;
+height: 100%;
+float: right;
+box-sizing: border-box;
+padding-top: 2.5%;
+}
+.right .innerRight{
+    width: 85%;
+    height: 80%;
+    border-radius: 100%;
+    border:25px solid gray;
+    background-image: url("images/icerde.jpg");
+    background-position: -93% 64%;
+    background-size: cover;
+}
+.container .arrows{
+    height: 50px;
+    top: 43%;
+    width: 100%;
+    position: absolute;
+}
+.container .arrows i:nth-child(1){
+    font-size:5em;
+    color: #76c38f;
+    float: left;
+    margin-left: -2%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .arrows i:nth-child(2){
+    float: right;
+    color:#76c38f;
+    font-size:5em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: -2%;
+}
+/* .conten Section begin */
+.mainWrapper .contentSec{
+    background-color: #670001;
+    height: auto;
+    width: 100%;
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+.contentSec .up{
+    display: inline-table;
+}
+.contentSec .up div{
+    background-color: white;
+    float: left;
+    width: 24%;
+    margin-left: 1.33%;
+    box-sizing: border-box;
+    padding: 2%;
+    cursor: pointer;
+    margin-bottom: 36px;
+}
+.contentSec .up div:hover{
+    background-color: #76c38f;
+    transition:all ease 0.3s;
+}
+.contentSec .up div:hover >h1{
+    color:white;
+    transition:all ease 0.3s;
+}
+.contentSec .up div:hover >p{
+    color:white;
+    transition:all ease 0.3s;
+}
+.contentSec .up div:nth-child(1)
+{
+    margin-left: 0;
+}
+.contentSec .up div img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: grid;
+}
+.contentSec .up div h1{
+    color: #333333;
+    text-align: center;
+    line-height: 100%;
+    font-size: 36px;
+    font-weight: 500;
+}
+.contentSec .up div p{
+    color: darkgray;
+    text-align: center;
+    font-size: 15px;
+}
+.contentSec .forH1{
+    width: 22%;
+    padding-bottom: 4px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 40px;
+    background: #303030;
+    position: relative;
+}
+.contentSec .forH1 h1{
+text-align: center;
+color:white;
+margin-top: 4px;
+}
+.contentSec hr{
+    margin-top: -22px;
+    margin-top: -22px;
+    background: #303030;
+    border: 2px solid;
+}
+.contentSec .down{
+
+}
+.contentSec .down>div{
+    width: 29.1%;
+    height: 190px;
+    margin-top: 4%;
+    margin-left: 3.5%;
+    display: inline-block;
+    border: 8px solid white;
+    cursor: pointer;
+    position: relative;
+    background-image: url("images/cem.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.contentSec .down>div:hover > .bottom{
+    display: none;
+    transition:all linear 0.3s;
+}
+.down div .bottom{
+   position: absolute;
+   bottom: 0;
+   height: 20%;
+   width: 100%;
+   background-color: black; 
+}
+.down div .bottom>h2{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+}
+.contentSec .down>div:hover{
+    border:#76c38f solid 8px;
+    transition: all ease 0.3s;
+    background-image: url("images/baris.jpg");
+}
+.contentSec .down div:nth-child(1){
+    margin-left: 0;
+}
+/* .contentSec .down div:nth-child(3){
+    margin-right: 0;
+}
+.contentSec .down div:nth-child(6){
+    margin-right: 0!important;
+} */
+.contentSec .down div:nth-child(4){
+    margin-left: 0;
+}
+/* content Section end */
+/* footer section begin */
+.mainWrapper .footerSec{
+     width: 100%;
+     height: 670px;
+}
+.footerSec .footBody{
+     width: 100%;
+     height: 85%;
+     background-color: #303030;
+     box-sizing: border-box;
+     padding-top: 3%;
+}
+.footerSec .footBody .wrapper{
+    width: 80%;
+    margin: auto;
+    height: 90%;
+}
+.footerSec .footBody .wrapper>div{
+    width: 24.5%;
+    height: auto;
+    float:left;
+    padding-left:1%; 
+    box-sizing: border-box;
+}
+.footerSec .footBody .wrapper .fromBlog{
+ padding-left: 1%;
+}
+.fromBlog h2{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+}
+.fromBlog h3{
+     color:#76c38f;
+     font-weight: 400;
+}
+.fromBlog p{
+    color: darkgray;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.fromBlog a{
+    text-decoration: none;
+}
+.fromBlog a h3{
+
+}
+.fromBlog a h3 i{
+   margin-left: 5px;
+}
+.footerSec .footBody .wrapper .links{
+padding-left: 1%;
+}
+.links h2{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+}
+.links a{
+    display: block;
+    border-bottom: 1px solid gray;
+    color: #76c38f;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px;
+}
+.links a i{
+    color: gray;
+    margin-right: 5px;
+}
+.footerSec .footBody .wrapper .tweets{
+padding-left: 1%;
+margin-left: 10px;
+}
+.tweets h2{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+}
+.tweets p{
+    color: darkgray;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.tweets p span{
+    color:#76c38f;
+    cursor: pointer;
+}
+.footerSec .footBody .wrapper .contacts{
+padding-left: 1%;
+}
+.contacts h2{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 400;
+}
+.contacts input{
+    background-color: #222222;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    outline: none;
+    color:white;
+}
+.contacts textarea{
+    background-color: #222222;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    color:white;
+}
+
+.contacts input[type="submit"]{
+    margin-top: 10px;
+    padding: 7px 14px;
+    background: #76c38f;
+    outline: none;
+    cursor: pointer;
+}
+.contacts input[type="submit"]:hover{
+    color: #76c38f;
+    background-color: whitesmoke;
+    transition:all linear 0.3s;
+}
+.footerSec hr{
+    height: 1px;
+    background-color: black;
+    color: black;
+    border: none;
+    margin-top: -7%;
+}
+.footerSec .endFoot{
+     background-color: #2b2b2b;
+     height: 15%;
+     width: 100%;
+     padding-top: 7%;
+     box-sizing: border-box;
+}
+.endFoot p:nth-child(1){
+  float: left;
+  color:gray;
+}
+.endFoot p:nth-child(2){
+    float: right;
+    color:gray;
+}
+/* footer section end */
